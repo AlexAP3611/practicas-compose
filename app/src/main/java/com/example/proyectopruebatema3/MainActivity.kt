@@ -25,7 +25,9 @@ class MainActivity : ComponentActivity() {
                     //    modifier = Modifier.padding(innerPadding)
                     //)
                     // Actividad 3.2
-                    ListadoApps(modifier = Modifier.padding(innerPadding))
+                    //ListadoApps(modifier = Modifier.padding(innerPadding))
+                    // Actividad 3.3
+                    FormularioNuevoUsuario(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
