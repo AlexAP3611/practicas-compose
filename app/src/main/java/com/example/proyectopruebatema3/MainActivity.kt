@@ -20,9 +20,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             ProyectoPruebaTema3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    ListaResenyas(
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    // Actividad 3.1
+                    //ListaResenyas(
+                    //    modifier = Modifier.padding(innerPadding)
+                    //)
+                    // Actividad 3.2
+                    ListadoApps(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
